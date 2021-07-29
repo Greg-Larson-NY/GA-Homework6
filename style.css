@@ -1,0 +1,144 @@
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    color: #000;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;
+    background: url(https://wallpaperaccess.com/full/1373403.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  
+  /* Center the container */
+  .container {
+      width: 960px;
+      margin: auto;
+    padding-top: 5em;
+  }
+  
+  header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4));
+    padding: 15px 0;
+  }
+  
+  .citipix-container {
+    text-align: center;
+    color: #fff;
+    font-family: helvetica, arial, sans-serif;
+  }
+  
+  .citipix-title {
+    font-size: 32px;
+  }
+  
+  .citipix-description {
+    font-size: 22px;
+  }
+  
+  #citipix-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+  }
+  
+  @media (min-width: 1100px) {
+    #citipix-form {
+      flex-direction: row;
+    }
+  }
+  
+  #city-type {
+    border: 1px solid #111;
+    color: #6b6b6c;
+    font-size: 24px;
+    height: 72px;
+    margin: 0 0 25px 0;
+    padding: 0px 30px;
+    width: calc(100% - 120px);
+  }
+  
+  @media (min-width: 800px) {
+    #city-type {
+      font-size: 38px;
+      width: 680px;
+    }
+  }
+  
+  @media (min-width: 1100px) {
+    #city-type {
+      margin: 0 25px 0 0;
+    }
+  }
+  
+  #submit-btn {
+    background: #ffe500;
+    color: #000;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.4s ease-in-out;
+    width: 250px;
+    height: 72px;
+  }
+  
+  @media (min-width: 1100px) {
+    #submit-btn {
+      font-size: 32px;
+    }
+  }
+  
+  #submit-btn:hover {
+    background: #fff600;
+  }
+  
+  
+  
+  /* Styles you can add into the document dynamically with JS - hint, hint ;) */
+  .nyc {
+    background-image: url(https://nypost.com/wp-content/uploads/sites/2/2016/03/escape-from-ny.jpg)
+  }
+  .sf {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/sf.jpg)
+  }
+  .buf {
+    background-image: url(https://wallpapercave.com/wp/wp4509058.jpg)
+  }
+  
+  .win {
+    background-image: url(https://www.visitarizona.com/imager/s3_us-west-1_amazonaws_com/aot-2020/images/Cities/wdknfdrss7bnw1tobvyf_d2dabcf721a0c19b2d05d6b7bbe9ce3f.jpg)
+  }
+  .ssprings {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5d155606ca3b7a00016efe1a/1579627413567-SBV9B0Y4QK3KFTZ1NKQQ/Rose+Apothecary.jpg)
+  }
+  .la {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/la.jpg)
+  }
+  .austin {
+    background-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/12/15/11/stone-cold-beer.jpg?width=1200)
+  }
+  .sydney {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/sydney.jpg)
+  }
+  .tat {
+    background-image: url(https://images.alphacoders.com/726/726264.jpg)
+  }
+  .rc{
+    background-image: url(https://gamingbolt.com/wp-content/uploads/2019/12/resident-evil-3-image-2-1.jpg)
+  }
+  .dub{
+    background-image: url(https://media.irishpost.co.uk/uploads/2020/07/10102614/Guinness-storehouse-reopening-irish-post.jpg)
+    
+  }
+  
+  
